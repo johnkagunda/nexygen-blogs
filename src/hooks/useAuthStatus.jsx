@@ -13,7 +13,7 @@ const useAuthStatus = () => {
         return setAuthenticated(false);
       }
     });
- 
+    setLoading(false);
   }, []);
   return { authenticated, loading, setAuthenticated };
 };

@@ -5,9 +5,7 @@ import {
   getStorage,
   ref,
   uploadBytesResumable,
-} from "firebase/storage";
-import { getAuth } from "firebase/auth";
-import { toast } from "react-hot-toast";
+} 
 
 const useImageUpload = () => {
   const auth = getAuth();
